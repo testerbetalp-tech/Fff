@@ -1,7 +1,3 @@
---- Requête interceptée ---
-URL : https://www.keyforge.win/v1/auth?e=1
-Méthode : POST
---- Corps de la réponse ---
 return(function(...)
 local a,b,c,d,e,f,g,h,i,j,x
 x=bit32 and bit32.bxor or function(p,q) local r,m=0,1 for _=1,8 do if p%2~=q%2 then r=r+m end p=math.floor(p/2) q=math.floor(q/2) m=m*2 end return r end
@@ -24,4 +20,3 @@ j=nil
 if not fn then error(tostring(err or "decode"),0) end
 return fn(...)
 end)(...)
---- Fin ---
